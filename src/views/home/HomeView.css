@@ -1,0 +1,18 @@
+#home-view {
+  max-width: 400px;
+  margin: 0 auto;
+  border: 1px solid grey;
+  padding: 14px;
+}
+
+#home-view > button {
+  background-color: red;
+  color: white;
+  border: none;
+  height: 40px;
+}
+
+#home-view > button > a {
+  color: white;
+  text-decoration: none;
+}

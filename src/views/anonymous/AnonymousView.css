@@ -2,12 +2,6 @@
 
 }
 
-#anonymous-view .render-element {
-    height: 150px;
-    width: 150px;
-    border: 1px solid black;
-}
-
 #anonymous-view .container {
     display: flex;
 }

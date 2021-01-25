@@ -3,6 +3,9 @@
   margin: 0 auto;
   border: 1px solid grey;
   padding: 14px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 14px;
 }
 
 #home-view > button {

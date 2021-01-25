@@ -11,6 +11,11 @@ export const HomeView = () => {
                     Anonymous in JSX
                 </Link>
             </button>
+            <button>
+                <Link to='/render-function'>
+                    Render function
+                </Link>
+            </button>
         </div>
     );
 }

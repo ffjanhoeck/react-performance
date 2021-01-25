@@ -1,4 +1,5 @@
 import React, {HTMLAttributes, memo} from 'react';
+import './RenderElement.css';
 
 export const RenderElement = memo((props: HTMLAttributes<HTMLDivElement>) => {
     const { ...restProps } = props;
@@ -9,4 +10,4 @@ export const RenderElement = memo((props: HTMLAttributes<HTMLDivElement>) => {
             Last Rerender: {Date.now()}
         </div>
     )
-})
+});
